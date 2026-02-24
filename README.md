@@ -1,2 +1,4 @@
-# borndigital.hithub.io
+# borndigital.github.io
 A repository to store the born digital course 3-d images for augmented reality.
+
+Made using Github Pages with the Hacker theme. 
