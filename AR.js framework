@@ -28,7 +28,7 @@ rotation="0 0 0">
 
 
 
-/// adding a box /// -> must be inside <a-marker>
+/// adding a box /// -> ALL SHAPES must be inside <a-marker>
 
 <a-box
 scale="0.5 0.5 0.5"
