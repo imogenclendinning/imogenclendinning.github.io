@@ -12,7 +12,7 @@
 
 <a-marker preset="hiro">
 <a-entity 
-gltf-model="https://imogenclendinning.github.io/cat.glb"
+gltf-model="https://imogenclendinning.github.io/NAME_OF_YOUR_FILE.glb"
 scale="2 2 2"
 position="0 0 0"
 rotation="0 0 0">
@@ -28,11 +28,41 @@ rotation="0 0 0">
 
 
 
-/// adding a box ///
+/// adding a box /// -> must be inside <a-marker>
+
+<a-box
+scale="0.5 0.5 0.5"
+position="0 0.5 0"
+color="red"></a-box>
 
 /// adding a sphere ///
 
-/// adding a base or platform ///
+<a-sphere
+position="0 0.5 0"
+scale="0.5 0.5 0.5"
+radius="0.5"
+color="blue"></a-sphere>
+
+/// adding a base for your object ///
+
+<a-plane
+position="0 0 0"
+rotation="-90 0 0" 
+width="2" 
+height="2" 
+color="white"
+opacity="0.8">
+</a-plane>
+
+/// adding a background = transport the user to a different plain of existence //
+
+<a-assets>
+    <img id="sky" src="LINK_TO_FOUND_IMAGE.jpg">
+</a-assets>
+// and then...
+<a-sky src="#sky"></a-sky>
+
+
 
 
 
