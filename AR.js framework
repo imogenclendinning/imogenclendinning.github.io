@@ -55,11 +55,11 @@ opacity="0.8">
 </a-plane>
 
 /// adding a background = transport the user to a different plain of existence //
-
+// outside of <a-marker>...
 <a-assets>
     <img id="sky" src="LINK_TO_FOUND_IMAGE.jpg">
 </a-assets>
-// and then...
+// and then inside <a-marker>...
 <a-sky src="#sky"></a-sky>
 
 
