@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+body {
+background-color: #ffff99;
+font-family: Courier;
+}
+
+header {
+  background-image: add dithered background image;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  background: #ffff99;
+  padding: 20px;
+border: 3px dashed black;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: right;
+  padding: 20px;
+  width: 70%;
+  background-color: #ffff99;
+
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2>our solar site exquisite corpse</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://lowcarbonmethods.com/local/print-ready-zine.pdf">How to make your own solar server</a></li>
+<br>
+      <li><a href="https://solarprotocol.net/index.html">Inspiration: Solar Protocol Network</a></li>
+<br>
+      <li><a href="https://borndigital.hotglue.me/">Our course website</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>HTML collaborative collage</h1>
+    <p>Write out a few lines of HTML poetry, link to images, gifs, songs etc. You can take from anywhere online, but try to avoid using complex styling attributes and formatting (we are confined to energy responsive design. Only include HTML for the body section of our website.)</p>
+  
+  </article>
+</section>
+
+<footer>
+  <p>*made by the students of net.art and the born digital, March 2026*</p>
+</footer>
+
+</body>
+</html>
